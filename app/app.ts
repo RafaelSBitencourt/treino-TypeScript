@@ -1,4 +1,3 @@
-import { Negociacao } from "./models/negociacao.js";
+import { NegociacaoController } from "./controllers/negociacao-controller.js";
 
-var teste1 = new Negociacao('02/03/2012','15','10.00');
-console.log(teste1)
+const controller = new NegociacaoController();
